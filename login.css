@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+}
+
+.login{
+    width: 100%;
+    height: 782px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login2{
+    display: flex;
+    width: 400px;
+    height: 580px;
+    box-shadow: 10px 10px 5px 5px gray;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 1px solid black;
+    color: white;
+    
+}
+
+
+input{
+    width: 340px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 5px;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: rgb(237, 237, 237);
+}
+
+
+input:focus{
+    outline: 2px solid orangered;
+}
+
+
+
+.child{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.grand-child{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.botcheck{
+    width: 15px;
+    height: 15px;
+   
+}
+
+
+.btn-second{
+    width: 340px;
+    height: 45px;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+
+}
+
+.therd-btn{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 117px;
+    height: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(227, 227, 227);
+    cursor: pointer;
+   
+}
+
+.therd-btn:hover{
+    background-color: rgb(227, 227, 227);
+    border: 1px solid rgb(174, 174, 174);
+    transition: 300ms;
+}
+
+.ancora{
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginn{
+   padding-bottom: 10px;
+    color: black;
+}
+
+.any{
+    color: black;
+    padding-top: 5px;
+    cursor: default;
+}
+
+.for-login{
+    color: rgb(62, 133, 255);
+}
+
+.social{
+   width: 100%;
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.socials{
+    width: 60px;
+    height: 60px;
+    border: 1px solid rgba(156, 156, 156, 0.483);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.socials:hover{
+    border: 1px solid black;
+    transition: 400ms;
+}
+
+.orline{
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.orlinechild{
+    width: 120px;
+    height: 1px;
+    background-color: black;
+}
+
+.spanu{
+    color: black;
+}
+
+
+@media screen and (max-width: 343px) {
+    
+input{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 5px;
+    border: 1px solid rgb(214, 214, 214);;
+    background-color: rgb(214, 214, 214);
+   
+}
+
+
+.btn-second{
+    width: 300px;
+    height: 45px;
+    background-color: orangered;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+
+}
+
+}
